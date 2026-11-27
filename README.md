@@ -20,6 +20,8 @@ A curated list of top LLM education platforms, from-scratch transformer & GPT im
 
 
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saashosted-platforms)
 
 - [Open-Source Equivalents & Tools](#open-source-equivalents--tools)
@@ -42,31 +44,27 @@ A curated list of top LLM education platforms, from-scratch transformer & GPT im
 
 
 
+## Sector Overview & Market Dynamics
+
+The global AI in education and digital tech upskilling market is estimated at approximately **$5.0B to $7.0B** (expanding at an aggressive CAGR of >30% toward $60B+ by the mid-2030s). The sector is **highly fragmented** rather than winner-take-all, characterized by low market concentration where leading platforms collectively hold under 20% market share alongside university MOOCs, specialized coding sandboxes, and niche developer upskilling tools.
+
+---
+
 ## SaaS/Hosted Platforms
 
+Commercial, cloud-hosted AI education platforms, interactive coding sandboxes, and subscription-based machine learning certification programs. Sorted in descending order by company valuation / scale.
 
-
-Commercial, cloud-hosted AI education platforms, interactive coding sandboxes, and subscription-based machine learning certification programs.
-
-
-
-* **[DeepLearning.AI](https://deeplearning.ai)** - Founded by Andrew Ng, offering hands-on AI engineering courses, short courses on transformers and agentic AI, and hosted Jupyter lab environments.
-
-* **[Coursera (Deep Learning & GenAI Specializations)](https://coursera.org)** - Hosted online learning platform featuring university-backed AI specializations, graded cloud notebooks, and verified certificates.
-
-* **[Udacity School of AI](https://udacity.com)** - Commercial nanodegree platform offering mentor-supported deep learning, NLP, and generative AI engineering tracks with GPU workspaces.
-
-* **[edX (MIT & University AI Programs)](https://edx.org)** - Hosted academic learning platform providing university-level machine learning, deep learning, and foundation model courses.
-
-* **[DataCamp](https://datacamp.com)** - Interactive browser-based learning platform featuring guided Python, PyTorch, Hugging Face, and LLM fine-tuning tracks.
-
-* **[Codecademy AI & Machine Learning](https://codecademy.com)** - Cloud-hosted interactive coding platform offering step-by-step NLP, transformer, and generative AI developer paths.
-
-* **[Kaggle Learn](https://kaggle.com)** - Free hosted micro-courses with cloud-backed GPU/TPU notebooks for rapid hands-on practice in deep learning and LLMs.
-
-* **[Brilliant.org (AI & Neural Networks)](https://brilliant.org)** - Commercial interactive visual learning platform teaching the math, probability, and intuition behind neural networks and LLMs.
-
-* **[Pluralsight (AI & ML Paths)](https://pluralsight.com)** - Enterprise technology learning platform offering video courses, skill assessments, and cloud sandboxes for AI model development.
+| Platform | Company Scale (Valuation / Revenue) | Starting Pricing (Paid Tier) | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Kaggle](https://kaggle.com)** | ~$2.2T parent market cap (Alphabet/Google subsidiary; acquired 2017) | Free ($0 / mo, no paid tier; compute quota capped) | Free forever: 30 hrs/wk NVIDIA T4 GPU compute (max 12h/session) & 20 hrs/wk TPU v5e/v3-8 compute (max 9h/session); 20 min idle timeout | Google-hosted data science & ML platform offering free GPU/TPU-accelerated Jupyter notebooks, micro-courses, and open community datasets. |
+| **[Coursera](https://coursera.org)** | ~$1.35B public market cap (NYSE: COUR; FY24 revenue ~$695M) | $59.00 / month (Coursera Plus monthly) or $399.00 / year | 7-day free trial for Coursera Plus (full catalog access; auto-renews); free course preview limited to first module/lecture videos only (no graded items or certificates) | Hosted online learning platform featuring university-backed AI specializations, graded cloud notebooks, and verified certificates. |
+| **[edX](https://edx.org)** | $800M acquisition valuation by 2U; 2U revenue ~$945M | $50.00 / course (Verified Track starting price; programs $200–$1,500+) | Free audit track available per course: limited strictly to video lectures and un-graded reading materials for a temporary course access window (no graded assignments or certificates) | Hosted academic learning platform providing university-level machine learning, deep learning, and foundation model courses. |
+| **[DataCamp](https://datacamp.com)** | ~$625M private valuation ($100M+ ARR milestone) | $13.00 / month (billed annually at $156/yr for Premium, or $35/mo month-to-month) | Free forever Basic plan: strictly limited to the first chapter/lesson only of courses across the catalog (no certificates, complete skill paths, or graded projects) | Interactive browser-based learning platform featuring guided Python, PyTorch, Hugging Face, and LLM fine-tuning tracks. |
+| **[Codecademy](https://codecademy.com)** | $525M acquisition valuation by Skillsoft (~$42M ARR at acquisition) | $14.99 / month (billed annually for Plus, or $29.99 month-to-month; Pro starts at $17.49/mo) | Free forever Basic tier: limited to ~20 introductory basic courses (no structured skill/career paths, quizzes, real-world portfolio projects, or certificates) | Cloud-hosted interactive coding platform offering step-by-step NLP, transformer, and generative AI developer paths. |
+| **[Brilliant.org](https://brilliant.org)** | ~$305M private valuation (~$10M–$50M est. annual revenue) | $13.49 / month (billed annually at $161.88/yr for Premium, or $24.99 month-to-month) | Free forever tier: strictly limited to 2 daily problem keys per day (keys reset at midnight; unlocks 2 interactive concepts daily; sequential progression only, no skipping ahead) | Commercial interactive visual learning platform teaching the math, probability, and intuition behind neural networks and LLMs. |
+| **[Udacity](https://udacity.com)** | ~$100M+ scale (acquired by Accenture LearnVantage in 2024; $1B peak 2015 valuation) | $249.00 / month (or 4-month bundle at ~$846 upfront) | 7-day free trial via select promotions (requires credit card, auto-renews; certificate creation locked during trial); free unverified course catalog limited strictly to raw video lectures | Commercial nanodegree platform offering mentor-supported deep learning, NLP, and generative AI engineering tracks with GPU workspaces. |
+| **[DeepLearning.AI](https://deeplearning.ai)** | ~$52M–$79M est. annual revenue ($100M+ cumulative Coursera platform sales) | $30.00 / month (DeepLearning.AI Pro monthly, or $25/mo billed annually at $300/yr) | Free forever tier: video lectures and community forum access only; 7-day free trial for Pro (full interactive lab and graded quiz access; requires payment info, auto-renews) | Founded by Andrew Ng, offering hands-on AI engineering courses, short courses on transformers and agentic AI, and hosted Jupyter lab environments. |
+| **[Pluralsight](https://pluralsight.com)** | Enterprise scale ($1.3B debt restructuring / lender recapitalization in 2024; $3.5B Vista 2021 buyout) | $29.00 / month (Standard Tech library, or $299.00 / year for Complete catalog) | 10-day free trial (requires credit card upfront; auto-renews unless canceled; full offline downloads and select cloud sandbox environments restricted during trial) | Enterprise technology learning platform offering video courses, skill assessments, and cloud sandboxes for AI model development. |
 
 
 
